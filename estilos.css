@@ -16,6 +16,7 @@ nav a{
 	color: #fff;
 	text-decoration: nome;
 	display: inline-block;
+	animation: moverIzquierda 1s ease-in;
 	
 }
 header{
@@ -40,17 +41,22 @@ img{
 	height: 450px;
 	object-fit: cover;
 	width:auto;
+	animation: moverArriba 1s ease-in;
 	
 }
 .textos{
 	width: 50%;
-	color:#fff;
+	color:	#90EE90;
 }
 .textos h1{
+	
 	font-size: 80px;
+	animation: moverDerecha 1s ease-in;
 }
 .textos h2{
+	
 	font-size: 30px;
+	animation: moverIzquierda 1s ease-in;
 }
 .textos a{
 	display: inline-block;
@@ -63,5 +69,50 @@ img{
 	border-radius: 3px;
 	text-align: center;
 	padding:10px 0;
-	
+	animation: moverDerecha 1s ease-in;
 }
+/*Para hacer que aparesca la ola*/
+.wave{
+	height: 100px;
+	width:100%;
+	background: #30E8BF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*Animaciones */
+
+@keyframes moverIzquierda{
+	0%{
+		opacity:0;
+		transform: translateX(-100px);
+	}
+	
+	100%{
+		opacity:1;
+		transform: traslate(0);
+	}
+}
+
+@keyframes moverDerecha{
+	0%{
+		opacity:0;
+		transform: translateX(100px);
+	}
+	
+	100%{
+		opacity:1;
+		transform: traslate(0);
+	}
+}
+@keyframes moverArriba{
+	0%{
+		opacity:0;
+		transform: translateY(-100px);
+	}
+	
+	100%{
+		opacity:1;
+		transform: traslate(0);
+	}
+}
+
