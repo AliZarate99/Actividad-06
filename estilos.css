@@ -5,19 +5,50 @@
 }
 body{
 	font-family: 'Open Sans', sans-serif;
-	overflow: hidden;
 }
 
 nav{
 	position: fixed;
 	top: 20px;
 	left: 20px;
-	
-	
 }
 nav a{
 	color: #fff;
 	text-decoration: nome;
 	display: inline-block;
 	
+}
+header{
+	background: #30E8BF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: auto;
+	padding: 48px;
+	width:100%;
+	
+}
+.container{
+	width: 95%;
+	max-width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: auto;
+}
+img{
+	display: block;
+	height: 450px;
+	object-fit: cover;
+	width:auto;
+	
+}
+.textos{
+	width: 50%;
+	color:#fff;
+}
+.textos h1{
+	font-size: 80px;
+}
+.textos h2{
+	font-size: 30px;
 }
