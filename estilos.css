@@ -52,3 +52,16 @@ img{
 .textos h2{
 	font-size: 30px;
 }
+.textos a{
+	display: inline-block;
+	color: #8B0000;
+	font-weight:300;
+	text-decoration:none;
+	margin-top: 60px;
+	border: 2px solid #7FFFD4;
+	width: 150px;
+	border-radius: 3px;
+	text-align: center;
+	padding:10px 0;
+	
+}
