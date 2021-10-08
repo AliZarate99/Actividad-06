@@ -68,6 +68,10 @@ img{
 	font-size: 30px;
 	animation: moverIzquierda 1s ease-in;
 }
+.textos h3{
+	
+	font-size: 20px;
+}
 .textos a{
 	display: inline-block;
 	color: #8B0000;
@@ -168,3 +172,14 @@ img{
 	font-weight: 390;
 	
 }
+
+.about__musica{
+	min-height:100px;
+	display:grid;
+	grid-template-columns: 1fr;
+	row-gap: 80px;
+	justify-items: left;
+	align-items:center;
+
+}
+
