@@ -1,4 +1,4 @@
-{
+*{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
@@ -11,6 +11,7 @@ nav{
 	position: fixed;
 	top: 20px;
 	left: 20px;
+	
 }
 nav a{
 	color: #fff;
